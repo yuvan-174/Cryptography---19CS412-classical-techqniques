@@ -87,8 +87,6 @@ int main() {
 ```
 
 ## OUTPUT:
-OUTPUT:
-Simulating Caesar Cipher
 
 ![image](https://github.com/user-attachments/assets/3c28cfb9-ec02-4f83-a9ec-18665ff9f3de)
 
