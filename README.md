@@ -585,3 +585,83 @@ int main() {
 
 ## RESULT:
 The program is executed successfully
+
+---------------------------------------------------------------------------------------------------------------
+# Rail Fence Cipher
+Rail Fence Cipher using with different key values
+
+# AIM:
+
+To develop a simple C program to implement Rail Fence Cipher.
+
+## DESIGN STEPS:
+
+### Step 1:
+
+Design of Rail Fence Cipher algorithnm 
+
+### Step 2:
+
+Implementation using C or pyhton code
+
+### Step 3:
+
+Testing algorithm with different key values. 
+ALGORITHM DESCRIPTION:
+In the rail fence cipher, the plaintext is written downwards and diagonally on successive "rails" of an imaginary fence, then moving up when we reach the bottom rail. When we reach the top rail, the message is written downwards again until the whole plaintext is written out. The message is then read off in rows.
+
+## PROGRAM:
+```c
+#include <stdio.h>
+#include <string.h>
+
+int main() {
+    int i, j, len, rails, count, dir;
+    char str[1000];
+    int code[100][1000] = {0};  // Initialize the entire array to 0
+
+    printf("Enter a Secret Message:\n");
+    gets(str);  
+    len = strlen(str);
+
+    printf("Enter number of rails:\n");
+    scanf("%d", &rails);
+
+    count = 0;
+    i = 0;
+    dir = 1;  
+
+    for (j = 0; j < len; j++) {
+        code[i][j] = str[j];
+        
+        // Change direction if we reach the top or bottom rail
+        if (i == 0) {
+            dir = 1;
+        } else if (i == rails - 1) {
+            dir = -1;
+        }
+
+        i += dir;
+    }
+
+    printf("Encrypted Message:\n");
+
+    // Print the encrypted message
+    for (i = 0; i < rails; i++) {
+        for (j = 0; j < len; j++) {
+            if (code[i][j] != 0) {
+                printf("%c", code[i][j]);
+            }
+        }
+    }
+
+    printf("\n");
+    return 0;
+}
+```
+
+## OUTPUT:
+![Screenshot 2024-09-02 210618](https://github.com/user-attachments/assets/d9b40fec-fe63-4a00-9993-90a897e25f64)
+
+## RESULT:
+The program is executed successfully
