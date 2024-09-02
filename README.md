@@ -347,7 +347,7 @@ int main() {
 ```
 
 ## OUTPUT:
-Output:
+
 ![Screenshot 2024-09-02 201830](https://github.com/user-attachments/assets/81152151-6510-463d-9d58-ea9c42638d44)
 
 
