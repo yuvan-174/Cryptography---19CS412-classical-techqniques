@@ -90,9 +90,6 @@ int main() {
 OUTPUT:
 Simulating Caesar Cipher
 
-Input : YUVAN SUNDAR
-Encrypted Message : BXYDQ VXQGDU
-Decrypted Message : YUVAN SUNDAR
 ![image](https://github.com/user-attachments/assets/3c28cfb9-ec02-4f83-a9ec-18665ff9f3de)
 
 ## RESULT:
