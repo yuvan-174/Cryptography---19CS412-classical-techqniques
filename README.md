@@ -1,5 +1,5 @@
 # Cryptography---19CS412-classical-techqniques
-# Caeser Cipher
+# EX-1-CAESER CIPHER		
 Caeser Cipher using with different key values
 
 # AIM:
@@ -95,7 +95,7 @@ The program is executed successfully
 
 -------------------------------------------------------------------------------------------
 
-# PlayFair Cipher
+# EX-2-PLAYFAIR CIPHER
 Playfair Cipher using with different key values
 
 # AIM:
@@ -355,7 +355,7 @@ int main() {
 The program is executed successfully
 
 ----------------------------------------------------------------------------------------
-# Hill Cipher
+# EX-3-HILL CIPHER
 Hill Cipher using with different key values
 
 # AIM:
@@ -491,7 +491,7 @@ The program is executed successfully
 
 ------------------------------------------------------------------------------------------
 
-# Vigenere Cipher
+# EX-4-VIGENERE CIPHER
 Vigenere Cipher using with different key values
 
 # AIM:
@@ -587,7 +587,7 @@ int main() {
 The program is executed successfully
 
 ---------------------------------------------------------------------------------------------------------------
-# Rail Fence Cipher
+# EX-5-RAIL FENCE CIPHER
 Rail Fence Cipher using with different key values
 
 # AIM:
